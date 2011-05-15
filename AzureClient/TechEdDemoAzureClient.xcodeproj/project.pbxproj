@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41892D513805D8C00035F94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41892D413805D8C00035F94 /* UIKit.framework */; };
+		F41892D713805D8C00035F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41892D613805D8C00035F94 /* Foundation.framework */; };
+		F41892D913805D8C00035F94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41892D813805D8C00035F94 /* CoreGraphics.framework */; };
+		F41892DF13805D8C00035F94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F41892DD13805D8C00035F94 /* InfoPlist.strings */; };
+		F41892E213805D8C00035F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41892E113805D8C00035F94 /* main.m */; };
+		F41892E513805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41892E413805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.m */; };
+		F41892E813805D8C00035F94 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41892E613805D8C00035F94 /* MainWindow.xib */; };
+		F41892EB13805D8C00035F94 /* TechEdDemoAzureClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41892EA13805D8C00035F94 /* TechEdDemoAzureClientViewController.m */; };
+		F41892EE13805D8C00035F94 /* TechEdDemoAzureClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41892EC13805D8C00035F94 /* TechEdDemoAzureClientViewController.xib */; };
+		F41892F51380601500035F94 /* libwatoolkitios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F41892F41380601500035F94 /* libwatoolkitios.a */; };
+		F41892F71380606A00035F94 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F41892F61380606A00035F94 /* libxml2.2.7.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F41892D013805D8C00035F94 /* TechEdDemoAzureClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechEdDemoAzureClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41892D413805D8C00035F94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F41892D613805D8C00035F94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F41892D813805D8C00035F94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F41892DC13805D8C00035F94 /* TechEdDemoAzureClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechEdDemoAzureClient-Info.plist"; sourceTree = "<group>"; };
+		F41892DE13805D8C00035F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F41892E013805D8C00035F94 /* TechEdDemoAzureClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechEdDemoAzureClient-Prefix.pch"; sourceTree = "<group>"; };
+		F41892E113805D8C00035F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F41892E313805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TechEdDemoAzureClientAppDelegate.h; sourceTree = "<group>"; };
+		F41892E413805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechEdDemoAzureClientAppDelegate.m; sourceTree = "<group>"; };
+		F41892E713805D8C00035F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F41892E913805D8C00035F94 /* TechEdDemoAzureClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TechEdDemoAzureClientViewController.h; sourceTree = "<group>"; };
+		F41892EA13805D8C00035F94 /* TechEdDemoAzureClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechEdDemoAzureClientViewController.m; sourceTree = "<group>"; };
+		F41892ED13805D8C00035F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TechEdDemoAzureClientViewController.xib; sourceTree = "<group>"; };
+		F41892F41380601500035F94 /* libwatoolkitios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwatoolkitios.a; path = TechEdDemoAzureClient/include/libwatoolkitios.a; sourceTree = "<group>"; };
+		F41892F61380606A00035F94 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41892CD13805D8C00035F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41892F71380606A00035F94 /* libxml2.2.7.3.dylib in Frameworks */,
+				F41892F51380601500035F94 /* libwatoolkitios.a in Frameworks */,
+				F41892D513805D8C00035F94 /* UIKit.framework in Frameworks */,
+				F41892D713805D8C00035F94 /* Foundation.framework in Frameworks */,
+				F41892D913805D8C00035F94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41892C513805D8C00035F94 = {
+			isa = PBXGroup;
+			children = (
+				F41892F61380606A00035F94 /* libxml2.2.7.3.dylib */,
+				F41892F41380601500035F94 /* libwatoolkitios.a */,
+				F41892DA13805D8C00035F94 /* TechEdDemoAzureClient */,
+				F41892D313805D8C00035F94 /* Frameworks */,
+				F41892D113805D8C00035F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F41892D113805D8C00035F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41892D013805D8C00035F94 /* TechEdDemoAzureClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F41892D313805D8C00035F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F41892D413805D8C00035F94 /* UIKit.framework */,
+				F41892D613805D8C00035F94 /* Foundation.framework */,
+				F41892D813805D8C00035F94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41892DA13805D8C00035F94 /* TechEdDemoAzureClient */ = {
+			isa = PBXGroup;
+			children = (
+				F41892E313805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.h */,
+				F41892E413805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.m */,
+				F41892E613805D8C00035F94 /* MainWindow.xib */,
+				F41892E913805D8C00035F94 /* TechEdDemoAzureClientViewController.h */,
+				F41892EA13805D8C00035F94 /* TechEdDemoAzureClientViewController.m */,
+				F41892EC13805D8C00035F94 /* TechEdDemoAzureClientViewController.xib */,
+				F41892DB13805D8C00035F94 /* Supporting Files */,
+			);
+			path = TechEdDemoAzureClient;
+			sourceTree = "<group>";
+		};
+		F41892DB13805D8C00035F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F41892DC13805D8C00035F94 /* TechEdDemoAzureClient-Info.plist */,
+				F41892DD13805D8C00035F94 /* InfoPlist.strings */,
+				F41892E013805D8C00035F94 /* TechEdDemoAzureClient-Prefix.pch */,
+				F41892E113805D8C00035F94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F41892CF13805D8C00035F94 /* TechEdDemoAzureClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41892F113805D8C00035F94 /* Build configuration list for PBXNativeTarget "TechEdDemoAzureClient" */;
+			buildPhases = (
+				F41892CC13805D8C00035F94 /* Sources */,
+				F41892CD13805D8C00035F94 /* Frameworks */,
+				F41892CE13805D8C00035F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechEdDemoAzureClient;
+			productName = TechEdDemoAzureClient;
+			productReference = F41892D013805D8C00035F94 /* TechEdDemoAzureClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F41892C713805D8C00035F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Neudesic;
+			};
+			buildConfigurationList = F41892CA13805D8C00035F94 /* Build configuration list for PBXProject "TechEdDemoAzureClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F41892C513805D8C00035F94;
+			productRefGroup = F41892D113805D8C00035F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41892CF13805D8C00035F94 /* TechEdDemoAzureClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41892CE13805D8C00035F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41892DF13805D8C00035F94 /* InfoPlist.strings in Resources */,
+				F41892E813805D8C00035F94 /* MainWindow.xib in Resources */,
+				F41892EE13805D8C00035F94 /* TechEdDemoAzureClientViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41892CC13805D8C00035F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41892E213805D8C00035F94 /* main.m in Sources */,
+				F41892E513805D8C00035F94 /* TechEdDemoAzureClientAppDelegate.m in Sources */,
+				F41892EB13805D8C00035F94 /* TechEdDemoAzureClientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F41892DD13805D8C00035F94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41892DE13805D8C00035F94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F41892E613805D8C00035F94 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41892E713805D8C00035F94 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F41892EC13805D8C00035F94 /* TechEdDemoAzureClientViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F41892ED13805D8C00035F94 /* en */,
+			);
+			name = TechEdDemoAzureClientViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F41892EF13805D8C00035F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F41892F013805D8C00035F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F41892F213805D8C00035F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechEdDemoAzureClient/TechEdDemoAzureClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = "TechEdDemoAzureClient/include/**";
+				INFOPLIST_FILE = "TechEdDemoAzureClient/TechEdDemoAzureClient-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TechEdDemoAzureClient/include\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F41892F313805D8C00035F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechEdDemoAzureClient/TechEdDemoAzureClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = "TechEdDemoAzureClient/include/**";
+				INFOPLIST_FILE = "TechEdDemoAzureClient/TechEdDemoAzureClient-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TechEdDemoAzureClient/include\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41892CA13805D8C00035F94 /* Build configuration list for PBXProject "TechEdDemoAzureClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41892EF13805D8C00035F94 /* Debug */,
+				F41892F013805D8C00035F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41892F113805D8C00035F94 /* Build configuration list for PBXNativeTarget "TechEdDemoAzureClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41892F213805D8C00035F94 /* Debug */,
+				F41892F313805D8C00035F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F41892C713805D8C00035F94 /* Project object */;
+}
