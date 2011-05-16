@@ -32,13 +32,15 @@ UIImagePickerController *picker;
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 }
-*/
+
+
+
 
 - (IBAction)takePictureButtonClick:(id)sender 
 {
@@ -57,18 +59,11 @@ UIImagePickerController *picker;
     UIImage *newImage = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
     NSData *data = UIImageJPEGRepresentation(newImage, 0.2);
     
-    // Now I need to upload to Windows Azure...
+    //TODO - Simon, please add the code to upload this photo to Windows Azure...
    
-    AuthenticationCredential *credential = [AuthenticationCredential credentialWithAzureServiceAccount:@"iostest" accessKey:@"/9seXadQ9HwOpXUO1jKxFN8qVwluGWrRkDQS+wZrghS9a1wPNh1ysHBvj0q0zL34E/qcWkmygEBqNFSz6Yk2eA=="];
-    
-    CloudStorageClient *client = [CloudStorageClient storageClientWithCredential:credential];
-
-    
     
     [[picker parentViewController] dismissModalViewControllerAnimated:YES];
     [picker release]; 
-    [data release];
-    [newImage release];
 }
 
 
