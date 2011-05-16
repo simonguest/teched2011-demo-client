@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/ksoap2/ksoap2-android-assembly-2.5.2-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.odata.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/odata4j-archive-0.3/odata4j/odata4j-0.3.jar" sourcepath="/Users/Simon/Desktop/ARC310/odata4j-archive-0.3/odata4j/odata4j-0.3-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/odata4j-archive-0.3/odata4j/core4j-0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.atom.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.crypto.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.httpclient.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.jaas.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.jackson.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.json.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.net.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.rdf.jar"/>
+	<classpathentry kind="lib" path="/Users/Simon/Desktop/ARC310/restlet-android-2.0.4/lib/org.restlet.ext.xml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
