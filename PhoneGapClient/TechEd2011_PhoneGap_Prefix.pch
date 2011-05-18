@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TechEd2011_PhoneGap' target in the 'TechEd2011_PhoneGap' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

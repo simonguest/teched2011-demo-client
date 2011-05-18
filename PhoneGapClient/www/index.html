@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<!-- Change this if you want to allow scaling -->
+    <meta name="viewport" content="width=default-width; user-scalable=no" />
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>TechEdDemo_PhoneGap</title>
+	
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+    <link rel="stylesheet" href="http://jquerymobile.com/test/experiments/ui-datepicker/jquery.ui.datepicker.mobile.css" />
+	<script type="text/javascript" charset="utf-8" src="phonegap.0.9.4.min.js"></script>
+    <script src="http://jquerymobile.com/test/experiments/ui-datepicker/jQuery.ui.datepicker.js"></script>
+    <script src="http://jquerymobile.com/test/experiments/ui-datepicker/jquery.ui.datepicker.mobile.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>    
+    <script type="text/javascript" charset="utf-8">
+
+    var pictureSource;   // picture source
+    var destinationType; // sets the format of returned value
+
+	function preventBehavior(e) 
+	{ 
+      e.preventDefault(); 
+    };
+	document.addEventListener("touchmove", preventBehavior, false);
+		
+	function onBodyLoad()
+	{
+		document.addEventListener("deviceready",onDeviceReady,false);
+	}
+	
+	/* When this function is called, PhoneGap has been initialized and is ready to roll */
+	function onDeviceReady()
+	{
+        pictureSource=navigator.camera.PictureSourceType;
+        destinationType=navigator.camera.DestinationType;
+	}
+        
+    function handleOpenURL(url)
+    {
+        window.location = url;
+    }
+        
+    function onFail(mesage) {
+        alert('Failed because: ' + message);
+    }
+        
+    function onPhotoDataSuccess(imageData) 
+    {
+    }
+        
+    function capturePhoto() 
+    {
+        navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50 });
+    }
+    
+    </script>
+        
+  </head>
+  <body onload="onBodyLoad()">
+      <div data-role="page" data-theme="b">
+      
+          <div data-role="header">
+              <h1>TechEd Demo</h1>
+          </div>
+          <div data-role="content">
+              <p>This is being served from local HTML running on the device.</p>
+               <button onclick="capturePhoto();">Upload Photo</button>
+               <a href="http://sguest01/TechEdDemoMVC" data-role="button">View Sessions</a>
+               <a href="datepicker.html" rel="external" data-role="button">View Date Picker</a>
+          </div>
+      </div>
+  </body>
+</html>
